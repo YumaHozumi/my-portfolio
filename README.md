@@ -1,24 +1,11 @@
-# portfolio
+# My Portfolio
 
-## Project setup
-```
-npm install
-```
+私のこれまでの成果物を掲載しているサイトです。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+![portfolioのトップ](fig/portfolio.png)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+URL：https://hzmintech.com
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 使用技術
+- Vue.js
+- Bootstrap
