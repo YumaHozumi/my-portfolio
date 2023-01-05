@@ -68,7 +68,34 @@
                     </a>
                 </div>
             </div>
+            
 <!-- 成果物2つ目 -->
+            <div class="row">
+                <div class="col-lg-6" style="border: 1px solid; border-color: #e9e9e9;">
+                    <img src="../assets/images/sample-merge.png" class="img-fluid">
+                </div>
+                <div class="col-lg-6 my-auto">
+                    <h4>PdfMerge App</h4>
+                    <p>pdf結合ができるWebアプリ。jpegやpngをそのまま投入しても一括でpdfとして結合してくれるところがポイント。
+                        <br>【使用技術】(フロントエンド)Vue.js、 Vuetify、(バックエンド)Python、FastAPI
+                    </p>
+                    <h4 class="border-bottom my-3"></h4>
+                </div>
+            </div>
+            
+<!-- 成果物3つ目 -->
+            <div class="row">
+                <div class="col-lg-6 my-auto">
+                    <h4>Portfolio</h4>
+                    <p>今閲覧しているこのページ。【使用技術】Vue.js、Bootstrap</p>
+                    <h4 class="border-bottom my-3"></h4>
+                </div>
+                <div class="col-lg-6">
+                    <img src="../assets/images/portfolio.png" class="img-fluid">
+                    <h4 class="border-bottom"></h4>
+                </div>
+            </div>
+<!--成果物4つ目 -->
             <div class="row">
                 <div class="col-lg-6">
                     <img src="../assets/images/hackathonComplete_Trim.gif" class="img-fluid">
@@ -85,18 +112,6 @@
             </div>
 
 
-<!-- 成果物3つ目 -->
-            <div class="row">
-                <div class="col-lg-6 my-auto">
-                    <h4>Portfolio</h4>
-                    <p>今閲覧しているこのページ。【使用技術】Vue.js、Bootstrap</p>
-                    <h4 class="border-bottom my-3"></h4>
-                </div>
-                <div class="col-lg-6">
-                    <img src="../assets/images/portfolio.png" class="img-fluid">
-                    <h4 class="border-bottom"></h4>
-                </div>
-            </div>
             
             <p class="my-4">随時成果物追加予定</p>
         </div>
