@@ -78,6 +78,7 @@
                     <h4>PdfMerge App</h4>
                     <p>pdf結合ができるWebアプリ。jpegやpngをそのまま投入しても一括でpdfとして結合してくれるところがポイント。
                         <br>【使用技術】(フロントエンド)Vue.js、 Vuetify、(バックエンド)Python、FastAPI
+                        <br>詳しい説明は<a href="https://github.com/YumaHozumi/pdfMergeApp">こちら(github)</a>
                     </p>
                     <h4 class="border-bottom my-3"></h4>
                 </div>
