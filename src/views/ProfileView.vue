@@ -9,23 +9,23 @@
                     <h4>学業面</h4>
                     <h4 class="border-bottom my-3"></h4>
                     <ul style="text-align: left">
-                        <li>近畿大学情報学科情報システムコース3回生</li>
+                        <li>近畿大学情報学科情報システムコース4回生</li>
                         <li>電子計算機研究会 元渉外広報部長</li>
-                        <li>3回生で特別特待生を獲得し、学費全額免除</li>
+                        <li>3,4回生で特別特待生を獲得し、学費全額免除</li>
                         <li>大学院進学予定(エレクトロニクス系工学専攻・コンピュータビジョン研究室)</li>
                     </ul>
                     
                     <h4 class="pt-3">技術面</h4>
                     <h4 class="border-bottom my-3"></h4>
                     <ul style="text-align: left">
-                        <li>主要な言語：Java、Python、C#</li>
+                        <li>主要な言語：Java、Python</li>
                         <li>OS環境：Windows、Mac、Linux</li>
-                        <li>JavaによるWeb App開発が好き。フレームワークはSpring boot</li>
-                        <li>WebデザインはBootstrapを使用</li>
+                        <li>Web App開発が好き。</li>
+                        <li>主な使用フレームワーク：Vue, Fast API</li>
                         <li>Raspberry pi 4を2台所有</li>
                         <li>Dockerをサーバー上で使用</li>
                         <li>基本情報技術者取得(2021年7月)</li>
-                        <li>応用情報技術者</li>
+                        <li>応用情報技術者取得(2022年12月)</li>
                         
                     </ul>
                 </div>

@@ -23,8 +23,8 @@
             <div class="row g-4">
                 <div class="col-lg-4 mx-auto">
                     <h2 class="text-white">Who are you?</h2>
-                    <p class="text-white-50">近畿大学情報学科情報システムコース3回生のほずみんです。Javaをこよなく愛しています。Web Appを作る際は
-                    Spring bootをフレームワークに
+                    <p class="text-white-50">近畿大学情報学科情報システムコース4回生のほずみんです。JavaとPythonをこよなく愛しています。Web Appを作る際は
+                    主にPythonのFast APIをフレームワークに
                     利用しています。たまにPythonも触ったり。Raspberry Piをサーバーに使用中。密かに
                     <a href="https://www.bodoge-intl.com/list/insapo/murder/" target="_blank" class="text-decoration-none link-secondary">マダミス</a>
                     と呼ばれるトーク型の推理ゲームにはまっています。</p>				
@@ -39,8 +39,8 @@
             <div class="row align-items-center g-4">
                 <div class="col-lg-7 mx-auto">
                     <p class="h1">スキル</p>
-                    <p>主にJavaとPythonを使っています。Spring bootでWeb App開発をしています。愛用しているPCはWindowsとMacの二刀流です。
-                    Dockerの素晴らしさに感銘を受け色々な使い方を模索しています。大学ではコンピュータビジョン研究室に所属しています。
+                    <p>主にJavaとPythonを使っています。VueやFast APIでWeb App開発をしています。愛用しているPCはWindowsとMacの二刀流です。
+                    Dockerの素晴らしさに感銘を受け色々な使い方を模索しています。大学ではコンピュータビジョン研究室に所属しており、画像認識の研究をしています。
                     <br>【資格】基本情報技術者、応用情報技術者、TOEIC 公開テスト655点</p>
                 </div>
             </div>
@@ -112,7 +112,19 @@
                 </div>
             </div>
 
-
+            <div class="row">
+                <div class="col-lg-6 my-auto">
+                    <h4>技術書SNS</h4>
+                    <p>【概要】大学の授業で、他の人と共同開発したWebアプリケーションです。おすすめの技術書を他の人とシェアするといったコンセプトになっています</p>
+                    <p>【使用技術】 フロントエンド：JavaScript バックエンド：Spring boot</p>
+                    <p>詳しい説明は<a href="https://github.com/Sane21/Syspro" target="_blank" class="text-decoration-none link-primary">こちら(github)</a></p>
+                    <h4 class="border-bottom my-3"></h4>
+                </div>
+                <div class="col-lg-6">
+                    <img src="../assets/images/B17_Moment.78bd966d.jpg" class="img-fluid">
+                    <h4 class="border-bottom"></h4>
+                </div>
+            </div>
             
             <p class="my-4">随時成果物追加予定</p>
         </div>
