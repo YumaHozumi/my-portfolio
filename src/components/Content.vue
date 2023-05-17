@@ -25,7 +25,7 @@
                     <h2 class="text-white">Who are you?</h2>
                     <p class="text-white-50">近畿大学情報学科情報システムコース4回生のほずみんです。JavaとPythonをこよなく愛しています。Web Appを作る際は
                     主にPythonのFast APIをフレームワークに
-                    利用しています。たまにPythonも触ったり。Raspberry Piをサーバーに使用中。密かに
+                    利用しています。Raspberry Piをサーバーに使用中。密かに
                     <a href="https://www.bodoge-intl.com/list/insapo/murder/" target="_blank" class="text-decoration-none link-secondary">マダミス</a>
                     と呼ばれるトーク型の推理ゲームにはまっています。</p>				
                 </div>
