@@ -5,7 +5,7 @@
             <!-- 左側に -->
                 <div class="col-md-7">
                     <h1>Welcome to Hozumi's Portfolio</h1>
-                    <p>No Java, No Life.</p>				
+                    <p>No Programming, No Life.</p>				
                 </div>
             <!-- 右 -->
                 <div class="col-md-5 text-center">
@@ -24,7 +24,7 @@
                 <div class="col-lg-4 mx-auto">
                     <h2 class="text-white">Who are you?</h2>
                     <p class="text-white-50">近畿大学情報学科情報システムコース4回生のほずみんです。JavaとPythonをこよなく愛しています。Web Appを作る際は
-                    主にPythonのFast APIをフレームワークに
+                    主にPythonのFast APIやVueを
                     利用しています。Raspberry Piをサーバーに使用中。密かに
                     <a href="https://www.bodoge-intl.com/list/insapo/murder/" target="_blank" class="text-decoration-none link-secondary">マダミス</a>
                     と呼ばれるトーク型の推理ゲームにはまっています。</p>				
@@ -55,17 +55,18 @@
                 </div>
             </div>
             
-<!-- 成果物1つ目 -->
             <div class="row">
                 <div class="col-lg-6 my-auto">
-                    <h4>Todo App</h4>
-                    <p>ユーザ毎にタスクを管理することができるWebアプリ。<br>【使用技術】Java、Spring boot、Bootstrap、MyBatis</p>
+                    <h4>Shelfmate</h4>
+                    <p>所持している本を管理できるWebアプリ。【使用技術】(フロントエンド)Vue.js、(バックエンド)Golang、 (その他)Firebase、Google Books API、国立国会図書館API</p>
+                    <br>詳しい説明は<a href="https://github.com/YumaHozumi/Shelfmate">こちら(github)</a>
                     <h4 class="border-bottom my-3"></h4>
                 </div>
                 <div class="col-lg-6">
-                    <a href="https://mywebapp.hzmintech.com">
-                    <img src="../assets/images/todoapp.png" class="img-fluid">
+                    <a href="https://shelfmate.hzmintech.com/">
+                        <img src="../assets/images/bookshelf-view.png" class="img-fluid">
                     </a>
+                    <h4 class="border-bottom"></h4>
                 </div>
             </div>
             
@@ -123,6 +124,20 @@
                 <div class="col-lg-6">
                     <img src="../assets/images/B17_Moment.78bd966d.jpg" class="img-fluid">
                     <h4 class="border-bottom"></h4>
+                </div>
+            </div>
+
+            <!-- 成果物1つ目 -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <a href="https://mywebapp.hzmintech.com">
+                        <img src="../assets/images/todoapp.png" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-6 my-auto">
+                    <h4>Todo App</h4>
+                    <p>ユーザ毎にタスクを管理することができるWebアプリ。<br>【使用技術】Java、Spring boot、Bootstrap、MyBatis</p>
+                    <h4 class="border-bottom my-3"></h4>
                 </div>
             </div>
             
