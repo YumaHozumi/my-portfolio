@@ -30,11 +30,11 @@ jobs:
         SERVER_USER: ${{ secrets.SERVER_USER }}
         SERVER_HOST: ${{ secrets.SERVER_HOST }}
       run: |
-        which rsync
         mkdir -p ~/.ssh
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
         rsync -avz --delete --dry-run \
-        -e "ssh -i ~/.ssh/id_rsa UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" \
+        -e "ssh -i ~/.ssh/id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" \
+        --rsync-path=/usr/bin/rsync \
         --exclude='/.git/' --exclude='/.github/' \
         dist/ $SERVER_USER@$SERVER_HOST:/home/PC_User/websiteForPublic/vue
