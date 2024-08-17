@@ -33,4 +33,4 @@ jobs:
         mkdir -p ~/.ssh
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
-        rsync -avz --delete dist/ $SERVER_USER@$SERVER_HOST:/home/PC_User/websiteForPublic/vue
+        rsync -avz --delete "ssh -i ~/.ssh/id_rsa" dist/ $SERVER_USER@$SERVER_HOST:/home/PC_User/websiteForPublic/vue
