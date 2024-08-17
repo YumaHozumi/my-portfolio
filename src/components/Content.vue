@@ -23,7 +23,7 @@
             <div class="row g-4">
                 <div class="col-lg-4 mx-auto">
                     <h2 class="text-white">Who are you?</h2>
-                    <p class="text-white-50">近畿大学大学院総合理工学研究科エレクトロニクス系工学専攻のほずみんです。最近はPythonとVueばっかり触っています。Web Appを作る際は
+                    <p class="text-white-50">近畿大学大学院 総合理工学研究科 修士1年のほずみんです。最近はPythonとVueばっかり触っています。Web Appを作る際は
                     主にPythonのFast APIやVueを
                     利用しています。密かに
                     <a href="https://www.bodoge-intl.com/list/insapo/murder/" target="_blank" class="text-decoration-none link-secondary">マダミス</a>
