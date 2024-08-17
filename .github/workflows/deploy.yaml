@@ -24,7 +24,7 @@ jobs:
     - name: Build project
       run: npm run build
 
-    - name: Deploy to GCP VM
+    - name: Dry run deploy to GCP VM
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         SERVER_USER: ${{ secrets.SERVER_USER }}
@@ -33,4 +33,5 @@ jobs:
         mkdir -p ~/.ssh
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan $SERVER_HOST >> ~/.ssh/known_hosts
         rsync -avz --delete --dry-run -e "ssh -i ~/.ssh/id_rsa" dist/ $SERVER_USER@$SERVER_HOST:/home/PC_User/websiteForPublic/vue
