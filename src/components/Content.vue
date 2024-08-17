@@ -23,9 +23,9 @@
             <div class="row g-4">
                 <div class="col-lg-4 mx-auto">
                     <h2 class="text-white">Who are you?</h2>
-                    <p class="text-white-50">近畿大学情報学科情報システムコース4回生のほずみんです。JavaとPythonをこよなく愛しています。Web Appを作る際は
+                    <p class="text-white-50">近畿大学大学院総合理工学研究科エレクトロニクス系工学専攻のほずみんです。最近はPythonとVueばっかり触っています。Web Appを作る際は
                     主にPythonのFast APIやVueを
-                    利用しています。Raspberry Piをサーバーに使用中。密かに
+                    利用しています。密かに
                     <a href="https://www.bodoge-intl.com/list/insapo/murder/" target="_blank" class="text-decoration-none link-secondary">マダミス</a>
                     と呼ばれるトーク型の推理ゲームにはまっています。</p>				
                 </div>
@@ -39,8 +39,8 @@
             <div class="row align-items-center g-4">
                 <div class="col-lg-7 mx-auto">
                     <p class="h1">スキル</p>
-                    <p>主にJavaとPythonを使っています。VueやFast APIでWeb App開発をしています。愛用しているPCはWindowsとMacの二刀流です。
-                    Dockerの素晴らしさに感銘を受け色々な使い方を模索しています。大学ではコンピュータビジョン研究室に所属しており、画像認識の研究をしています。
+                    <p>主にVueとPythonを使っています。VueやFast APIでWeb App開発をしています。愛用しているPCはWindowsとMacの二刀流です。
+                    Dockerの素晴らしさに感銘を受け色々な使い方を模索しています。大学ではコンピュータビジョン研究室に所属しており、人物の行動認識の研究をしています。
                     <br>【資格】基本情報技術者、応用情報技術者、TOEIC 公開テスト655点</p>
                 </div>
             </div>
