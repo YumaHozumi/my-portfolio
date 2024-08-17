@@ -24,17 +24,17 @@ jobs:
     - name: Build project
       run: npm run build
 
-    - name: Install rsync
-      run: sudo apt-get update && sudo apt-get install -y rsync
-
     - name: Dry run deploy to GCP VM
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         SERVER_USER: ${{ secrets.SERVER_USER }}
         SERVER_HOST: ${{ secrets.SERVER_HOST }}
       run: |
+        which rsync
         mkdir -p ~/.ssh
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
-        ssh-keyscan $SERVER_HOST >> ~/.ssh/known_hosts
-        rsync -avz --delete --dry-run -e "ssh -i ~/.ssh/id_rsa" dist/ $SERVER_USER@$SERVER_HOST:/home/PC_User/websiteForPublic/vue
+        rsync -avz --delete --dry-run \
+        -e "ssh -i ~/.ssh/id_rsa UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" \
+        --exclude='/.git/' --exclude='/.github/' \
+        dist/ $SERVER_USER@$SERVER_HOST:/home/PC_User/websiteForPublic/vue
