@@ -9,10 +9,10 @@
                     <h4>学業面</h4>
                     <h4 class="border-bottom my-3"></h4>
                     <ul style="text-align: left">
-                        <li>近畿大学情報学科情報システムコース4回生</li>
+                        <li>近畿大学大学院 総合理工学研究科エレクトロニクス系工学専攻 修士1年</li>
                         <li>電子計算機研究会 元渉外広報部長</li>
                         <li>3,4回生で特別特待生を獲得し、学費全額免除</li>
-                        <li>大学院進学予定(エレクトロニクス系工学専攻・コンピュータビジョン研究室)</li>
+                        <li>人物の行動認識に関する研究をしています</li>
                     </ul>
                     
                     <h4 class="pt-3">技術面</h4>
@@ -33,12 +33,14 @@
                 <div class="col-lg-4 mx-auto">
                     <h4 class="pt-3">趣味</h4>
                     <h4 class="border-bottom my-3"></h4>
-                    <p>最近のマイブームはマーダーミステリーという推理ゲーム。
-                    事件が起こったという状況の中、物語の登場人物になりきって他のプレイヤーと話し合いなどで事件の真相を探るテーブルトーク型
-                    のゲームです。推理力、状況整理能力、コミュニケーション力をいかに活かせるかが効いてくるゲームで非常に面白く、
-                    布教を試みています。また、音楽鑑賞が好きです。特にYOASOBIやAdoさんを好んで聴いています。</p>
+                    <ul style="text-align: left">
+                        <li><span class="label">マイブーム</span>：TRPG，マーダーミステリー</li>
+                        <li><span class="label">趣味</span>：漫画，Web App開発</li>
+                        <li><span class="label">好きなアーティスト</span>：SOUL'd OUT</li>
+                        <li><span class="label">最近やってるゲーム</span>：ブルーアーカイブ</li>
+                    </ul>
                     
-                    <img src="../assets/images/raspi.jpg" class="img-fluid">
+                    <img src="@/assets/images/raspi.jpg" class="img-fluid" loading="lazy">
                 </div>
             </div>
         </div>
@@ -59,3 +61,22 @@
     }
   }
   </script>
+
+<style scoped>
+.label {
+  display: inline-block;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .label {
+    width: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .label {
+    width: 150px;
+  }
+}
+</style>
