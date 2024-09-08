@@ -97,7 +97,7 @@ import ProductShowcase from './ProductShowcase.vue';
             title="Portfolio"
             description="今閲覧しているこのページ。"
             useTools="Vue.js、Bootstrap"
-            githubLink=""
+            githubLink="https://github.com/YumaHozumi/my-portfolio"
             appLink=""
             :imageRight="true"
         >
