@@ -1,3 +1,7 @@
+<script setup>
+import ProductShowcase from './ProductShowcase.vue';
+</script>
+
 <template>
     <section class="bg-black text-white pb-5" id="home">
         <div class="container py-3">
@@ -54,92 +58,82 @@
                     <h1>成果物</h1>
                 </div>
             </div>
-            
-            <div class="row">
-                <div class="col-lg-6 my-auto">
-                    <h4>Shelfmate</h4>
-                    <p>所持している本を管理できるWebアプリ。【使用技術】(フロントエンド)Vue.js、(バックエンド)Golang、 (その他)Firebase、Google Books API、国立国会図書館API</p>
-                    <br>詳しい説明は<a href="https://github.com/YumaHozumi/Shelfmate">こちら(github)</a>
-                    <h4 class="border-bottom my-3"></h4>
-                </div>
-                <div class="col-lg-6">
-                    <a href="https://shelfmate.hzmintech.com/">
-                        <img src="../assets/images/bookshelf-view.png" class="img-fluid">
-                    </a>
-                    <h4 class="border-bottom"></h4>
-                </div>
-            </div>
-            
-<!-- 成果物2つ目 -->
-            <div class="row">
-                <div class="col-lg-6" style="border: 1px solid; border-color: #e9e9e9;">
-                    <img src="../assets/images/sample-merge.png" class="img-fluid">
-                </div>
-                <div class="col-lg-6 my-auto">
-                    <h4>PdfMerge App</h4>
-                    <p>pdf結合ができるWebアプリ。jpegやpngをそのまま投入しても一括でpdfとして結合してくれるところがポイント。
-                        <br>【使用技術】(フロントエンド)Vue.js、 Vuetify、(バックエンド)Python、FastAPI
-                        <br>詳しい説明は<a href="https://github.com/YumaHozumi/pdfMergeApp">こちら(github)</a>
-                    </p>
-                    <h4 class="border-bottom my-3"></h4>
-                </div>
-            </div>
-            
-<!-- 成果物3つ目 -->
-            <div class="row">
-                <div class="col-lg-6 my-auto">
-                    <h4>Portfolio</h4>
-                    <p>今閲覧しているこのページ。【使用技術】Vue.js、Bootstrap</p>
-                    <h4 class="border-bottom my-3"></h4>
-                </div>
-                <div class="col-lg-6">
-                    <img src="../assets/images/portfolio.png" class="img-fluid">
-                    <h4 class="border-bottom"></h4>
-                </div>
-            </div>
-<!--成果物4つ目 -->
-            <div class="row">
-                <div class="col-lg-6">
-                    <img src="../assets/images/hackathonComplete_Trim.gif" class="img-fluid">
-                </div>
-                <div class="col-lg-6 my-auto">
-                    <h4>Wizard Jump</h4>
-                    <p>部のハッカソンというイベントにて開発したゲーム。いわゆる鬼畜ゲーを意識しており、
-                    開発者もクリアするのに悪戦苦闘した。共同開発で、プレイヤーのコントロール面全般を担当。<br>【ゲームエンジン】
-                    Unity 【開発言語】C# 【開発期間】 3週間 【余談】近畿大学の
-                    <a href="https://kindaipicks.com/article/002458" target="_blank" class="text-decoration-none link-primary">公式HPの記事</a>
-                    で部の紹介がされた際になぜか当ゲームがインタビュアーに紹介された。</p>
-                    <h4 class="border-bottom my-3"></h4>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-lg-6 my-auto">
-                    <h4>技術書SNS</h4>
-                    <p>【概要】大学の授業で、他の人と共同開発したWebアプリケーションです。おすすめの技術書を他の人とシェアするといったコンセプトになっています</p>
-                    <p>【使用技術】 フロントエンド：JavaScript バックエンド：Spring boot</p>
-                    <p>詳しい説明は<a href="https://github.com/Sane21/Syspro" target="_blank" class="text-decoration-none link-primary">こちら(github)</a></p>
-                    <h4 class="border-bottom my-3"></h4>
-                </div>
-                <div class="col-lg-6">
-                    <img src="../assets/images/B17_Moment.78bd966d.jpg" class="img-fluid">
-                    <h4 class="border-bottom"></h4>
-                </div>
-            </div>
+        <!-- 成果物1つ目 -->
+        <ProductShowcase
+            title="Shelfmate"
+            description="所持している本を管理できるWebアプリ。【使用技術】(フロントエンド)Vue.js、(バックエンド)Golang、 (その他)Firebase、Google Books API、国立国会図書館API"
+            githubLink="https://github.com/YumaHozumi/Shelfmate"
+            appLink="https://shelfmate.hzmintech.com/"
+            :imageRight="false"
+        >
+            <img src="../assets/images/bookshelf-view.png" class="img-fluid" loading="lazy">
+        </ProductShowcase>
 
-            <!-- 成果物1つ目 -->
-            <div class="row">
-                <div class="col-lg-6">
-                    <a href="https://mywebapp.hzmintech.com">
-                        <img src="../assets/images/todoapp.png" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-lg-6 my-auto">
-                    <h4>Todo App</h4>
-                    <p>ユーザ毎にタスクを管理することができるWebアプリ。<br>【使用技術】Java、Spring boot、Bootstrap、MyBatis</p>
-                    <h4 class="border-bottom my-3"></h4>
-                </div>
-            </div>
+        <ProductShowcase
+            title="技術記事ピックアップbot"
+            description="Qiitaの記事を毎日，AIによる要約つきで自動でピックアップしてくれるbot。【使用技術】GAS (その他) Qiita API、Slack API, Gemini API"
+            :imageRight="true"
+        >
+        <img src="../assets/images/gas_slack.png" class="img-fluid" loading="lazy">
+        </ProductShowcase>
+            
+        <!-- 成果物2つ目 -->
+        <ProductShowcase
+            title="PdfMerge App"
+            description="pdf結合ができるWebアプリ。jpegやpngをそのまま投入しても一括でpdfとして結合してくれるところがポイント。【使用技術】(フロントエンド)Vue.js、 Vuetify、(バックエンド)Python、FastAPI"
+            githubLink="https://github.com/YumaHozumi/pdfMergeApp"
+            appLink=""
+            :imageRight="false"
+        >
+            <img src="../assets/images/sample-merge.png" class="img-fluid" loading="lazy">
+        </ProductShowcase>
+
+        <!-- 成果物3つ目 -->
+        <ProductShowcase
+            title="Portfolio"
+            description="今閲覧しているこのページ。【使用技術】Vue.js、Bootstrap"
+            githubLink=""
+            appLink=""
+            :imageRight="true"
+        >
+            <img src="../assets/images/portfolio.png" class="img-fluid" loading="lazy">
+        </ProductShowcase>
+
+        <!-- 成果物4つ目 -->
+        <ProductShowcase
+            title="Wizard Jump"
+            description="部のハッカソンというイベントにて開発したゲーム。いわゆる鬼畜ゲーを意識しており、開発者もクリアするのに悪戦苦闘した。共同開発で、プレイヤーのコントロール面全般を担当。<br>【ゲームエンジン】Unity 【開発言語】C# 【開発期間】3週間 【余談】近畿大学の<a href='https://kindaipicks.com/article/002458' target='_blank' class='text-decoration-none link-primary'>公式HPの記事</a>で部の紹介がされた際になぜか当ゲームがインタビュアーに紹介された。"
+            githubLink=""
+            appLink=""
+            :imageRight="false"
+        >
+            <img src="../assets/images/hackathonComplete_Trim.gif" class="img-fluid" loading="lazy">
+        </ProductShowcase>
+
+        <!-- 成果物5つ目 -->
+        <ProductShowcase
+            title="技術書SNS"
+            description="【概要】大学の授業で、他の人と共同開発したWebアプリケーションです。おすすめの技術書を他の人とシェアするといったコンセプトになっています"
+            githubLink="https://github.com/Sane21/Syspro"
+            appLink=""
+            imageSrc="../assets/images/B17_Moment.78bd966d.jpg"
+            :imageRight="true"
+        >
+            <img src="../assets/images/B17_Moment.78bd966d.jpg" class="img-fluid" loading="lazy">
+        </ProductShowcase>
+
+        <!-- 成果物6つ目 -->
+        <ProductShowcase
+            title="Todo App"
+            description="ユーザ毎にタスクを管理することができるWebアプリ。<br>【使用技術】Java、Spring boot、Bootstrap、MyBatis"
+            githubLink=""
+            appLink="https://mywebapp.hzmintech.com"
+            imageSrc="../assets/images/todoapp.png"
+            :imageRight="false"
+        >
+            <img src="../assets/images/todoapp.png" class="img-fluid" loading="lazy">
+        </ProductShowcase>
             
             <p class="my-4">随時成果物追加予定</p>
         </div>
