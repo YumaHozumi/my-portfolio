@@ -62,7 +62,8 @@ import ProductShowcase from './ProductShowcase.vue';
         <!-- 成果物1つ目 -->
         <ProductShowcase
             title="Shelfmate"
-            description="所持している本を管理できるWebアプリ。【使用技術】(フロントエンド)Vue.js、(バックエンド)Golang、 (その他)Firebase、Google Books API、国立国会図書館API"
+            description="所持している本を管理できるWebアプリ。"
+            useTools="(フロントエンド)Vue.js、(バックエンド)Golang、 (その他)Firebase、Google Books API、国立国会図書館API"
             githubLink="https://github.com/YumaHozumi/Shelfmate"
             appLink="https://shelfmate.hzmintech.com/"
             :imageRight="false"
@@ -72,7 +73,8 @@ import ProductShowcase from './ProductShowcase.vue';
 
         <ProductShowcase
             title="技術記事ピックアップbot"
-            description="Qiitaの記事を毎日，AIによる要約つきで自動でピックアップしてくれるbot。【使用技術】GAS (その他) Qiita API、Slack API, Gemini API"
+            description="Qiitaの記事を毎日，AIによる要約つきで自動でピックアップし、Slackに通知するbot。"
+            useTools="GAS (その他) Qiita API、Slack API, Gemini API"
             :imageRight="true"
         >
         <img src="../assets/images/gas_slack.png" class="img-fluid" loading="lazy">
@@ -81,7 +83,8 @@ import ProductShowcase from './ProductShowcase.vue';
         <!-- 成果物2つ目 -->
         <ProductShowcase
             title="PdfMerge App"
-            description="pdf結合ができるWebアプリ。jpegやpngをそのまま投入しても一括でpdfとして結合してくれるところがポイント。【使用技術】(フロントエンド)Vue.js、 Vuetify、(バックエンド)Python、FastAPI"
+            description="pdf結合ができるWebアプリ。jpegやpngをそのまま投入しても一括でpdfとして結合してくれるところがポイント。"
+            useTools="(フロントエンド)Vue.js、 Vuetify、(バックエンド)Python、FastAPI"
             githubLink="https://github.com/YumaHozumi/pdfMergeApp"
             appLink=""
             :imageRight="false"
@@ -92,7 +95,8 @@ import ProductShowcase from './ProductShowcase.vue';
         <!-- 成果物3つ目 -->
         <ProductShowcase
             title="Portfolio"
-            description="今閲覧しているこのページ。【使用技術】Vue.js、Bootstrap"
+            description="今閲覧しているこのページ。"
+            useTools="Vue.js、Bootstrap"
             githubLink=""
             appLink=""
             :imageRight="true"
@@ -103,7 +107,8 @@ import ProductShowcase from './ProductShowcase.vue';
         <!-- 成果物4つ目 -->
         <ProductShowcase
             title="Wizard Jump"
-            description="部のハッカソンというイベントにて開発したゲーム。いわゆる鬼畜ゲーを意識しており、開発者もクリアするのに悪戦苦闘した。共同開発で、プレイヤーのコントロール面全般を担当。<br>【ゲームエンジン】Unity 【開発言語】C# 【開発期間】3週間 【余談】近畿大学の<a href='https://kindaipicks.com/article/002458' target='_blank' class='text-decoration-none link-primary'>公式HPの記事</a>で部の紹介がされた際になぜか当ゲームがインタビュアーに紹介された。"
+            description="部のハッカソンというイベントにて開発したゲーム。いわゆる鬼畜ゲーを意識しており、開発者もクリアするのに悪戦苦闘した。共同開発で、プレイヤーのコントロール面全般を担当。【開発期間】3週間 【余談】近畿大学の公式HP（https://kindaipicks.com/article/002458）の記事で部の紹介がされた際になぜか当ゲームがインタビュアーに紹介された。"
+            useTools="(ゲームエンジン)Unity、(開発言語)C# "
             githubLink=""
             appLink=""
             :imageRight="false"
@@ -115,6 +120,7 @@ import ProductShowcase from './ProductShowcase.vue';
         <ProductShowcase
             title="技術書SNS"
             description="【概要】大学の授業で、他の人と共同開発したWebアプリケーションです。おすすめの技術書を他の人とシェアするといったコンセプトになっています"
+            useTools="Java、Spring boot、Bootstrap、MyBatis"
             githubLink="https://github.com/Sane21/Syspro"
             appLink=""
             imageSrc="../assets/images/B17_Moment.78bd966d.jpg"
@@ -126,8 +132,9 @@ import ProductShowcase from './ProductShowcase.vue';
         <!-- 成果物6つ目 -->
         <ProductShowcase
             title="Todo App"
-            description="ユーザ毎にタスクを管理することができるWebアプリ。<br>【使用技術】Java、Spring boot、Bootstrap、MyBatis"
-            githubLink=""
+            description="ユーザ毎にタスクを管理することができるWebアプリ。"
+            useTools="Java、Spring boot、Bootstrap、MyBatis"
+            githubLink="https://github.com/YumaHozumi/todoapp"
             appLink="https://mywebapp.hzmintech.com"
             imageSrc="../assets/images/todoapp.png"
             :imageRight="false"

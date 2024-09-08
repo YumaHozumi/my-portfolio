@@ -4,6 +4,7 @@ import { defineProps } from 'vue'
 defineProps({
   title: { type: String, required: true },
   description: { type: String, required: true },
+  useTools: { type: String, required: true },
   githubLink: { type: String, required: false },
   appLink: { type: String, required: true },
   imageRight: { type: Boolean, default: false }
@@ -15,6 +16,7 @@ defineProps({
       <div :class="['col-lg-6 my-auto', { 'order-lg-2': imageRight }]">
         <h4>{{ title }}</h4>
         <p>{{ description }}</p>
+        <p>【使用技術】{{ useTools }}</p>
         <div v-show="githubLink">
             <br>詳しい説明は<a :href="githubLink">こちら(github)</a>
         </div>
